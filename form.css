@@ -1,0 +1,83 @@
+/* Color Scheme */
+:root {
+    --primary-color: #6b0b03;
+    --secondary-color: #FFF275;
+    --text-color: #333;
+  }
+  
+  /* Header */
+  header {
+    background-color: var(--primary-color);
+    color: #fff;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  header h1 {
+    font-size: 36px;
+    margin: 0;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  
+  /* Font */
+  body {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: var(--text-color);
+  }
+  
+  /* Label */
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--primary-color);
+  }
+  
+  /* Button */
+  button {
+    background-color: var(--secondary-color);
+    color: #333;
+    padding: 5px 5px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    font-size: 18px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  button:hover {
+    background-color: #FFCC7D;
+    color: #fff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Table */
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 20px 0;
+  }
+  
+  table th, table td {
+    padding: 5px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  table th {
+    background-color: var(--secondary-color);
+    color: var(--text-color);
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
